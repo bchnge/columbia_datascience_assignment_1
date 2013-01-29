@@ -1,7 +1,7 @@
 homework\_1p5
 =============
 
-**Due:** Monday Feb 4, 6pm.  No commits after this time will be counted.
+**Due:** Wednesday Feb 6, 6pm.  No commits after this time will be counted.
 
 To receive full credit, you must commit and push code that passes all unit tests.
 
@@ -72,12 +72,19 @@ tests/
 ------
 
 You will be graded on passing these tests.  You should also run these
-tests as soon as you have completed writing the code.  To run them:
+tests as soon as you have completed writing the code.  To run them, you
+must first edit the second line in `tests/testscripts.py`.  It currently
+reads
+
+    from homework_1p5.src import averager, maximum,\
+
+The `homework_1p5` should be changed to the name of your repo, which is
+something like `homework_1p5_team_XX`.  After doing that,
 
     $ cd tests
     $ python -m unittest -v testscripts
 
-You should see output telling you that 5 tests were run and all were "Ok."
+You should see output telling you that 5 tests were run and all failed.
 
 ---
 
