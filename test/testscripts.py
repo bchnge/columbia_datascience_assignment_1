@@ -1,6 +1,6 @@
 import unittest
 from StringIO import StringIO
-from homework_1p5.src import averager, maximum,\
+from homework_1p5_team_2.src import averager, maximum,\
     minimum, data_length, summer
 
 
