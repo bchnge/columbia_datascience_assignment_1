@@ -15,6 +15,6 @@ def compute_sum(infile):
     Treats values in the column as floating point numbers
     """
     # Try using the csv module
-    reader = csv.reader(open(infile,'r+'))
+    reader = csv.reader(infile)
     reader.next()
     return sum(float(col[0]) for col in reader) 
