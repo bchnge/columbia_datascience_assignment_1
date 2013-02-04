@@ -1,6 +1,6 @@
 import csv
 import os
-from homework_1p5_soln.src import averager, maximum, minimum, data_length, summer
+from homework_1p5_team_2.src import averager, maximum, minimum, data_length, summer
 
 
 
