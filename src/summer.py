@@ -14,4 +14,7 @@ def compute_sum(infile):
     -----
     Treats values in the column as floating point numbers
     """
-    # Try using the csv module 
+    # Try using the csv module
+    reader = csv.reader(open(infile,'rb'))
+    reader.next()
+    return sum(float(col[0]) for col in reader) 
