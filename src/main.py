@@ -4,7 +4,6 @@ from homework_1p5_team_2.src import averager, maximum, minimum, data_length, sum
 
 
 
-
 datadir = '../data'
 infilename = os.path.join(datadir, 'data.csv')
 
